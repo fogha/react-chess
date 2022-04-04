@@ -1,0 +1,25 @@
+.promoteBoard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    &__square {
+        width: 50%;
+        height: 50%;
+    }
+
+    &__piece {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-img {
+            max-width: 70%;
+            max-height: 70%;
+        }
+    }
+}
