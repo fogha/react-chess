@@ -23,7 +23,7 @@ function BoardSquare({ piece, isBlack, position }) {
                 setPromotion(pendingPromotion) : setPromotion(null)
         })
         return () => subscribe.unsubscribe()
-    })
+    }, [position])
 
     return (
         <div className='boardSquare' ref={drop}>
