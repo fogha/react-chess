@@ -1,47 +1,32 @@
-import React, { useEffect, useState } from 'react'
-import './App.scss'
-import Board from './components/board/Board';
-import { gameSubject, initGame, resetGame } from './utils/Game';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './screens/home/Home'
+import Auth from './screens/auth/Auth'
+import Game from './screens/game/Game'
+import { useAuthState } from 'react-firebase-hooks/auth'
+import { auth } from './utils/firebase';
 
 function App() {
-    const [board, setBoard] = useState([])
-    const [isGameOver, setIsGameOver] = useState()
-    const [result, setResult] = useState()
-    const [turn, setTurn] = useState()
+  const [user, loading, error] = useAuthState(auth)
+  
+  if(loading) {
+    return 'loading ... '
+  }
+  if(error) {
+    return 'There was an error'
+  }
+  if(!user) {
+    return <Auth />
+  }
 
-    useEffect(() => {
-        initGame()
-        const subscribe = gameSubject.subscribe(game =>{
-            setBoard(game.board)
-            setIsGameOver(game.isGameOver)
-            setResult(game.result)
-            setTurn(game.turn)
-        })
-        return () => subscribe.unsubscribe()
-    }, [])
-
-    return (
-        <div className='app'>
-            {
-                isGameOver && (
-                    <h2 className='vertical-text'>
-                        GAME OVER 
-                        <button onClick={resetGame}>
-                           <span className="vertical-text">
-                               New Game
-                           </span>
-                        </button>
-                    </h2>
-                )
-            }
-            <div className="board__container">
-                <Board board={board} turn={turn} />
-            </div>
-            {
-                result && <p className="vertical-text">{result}</p>
-            }
-        </div>
-    )
+  return (
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/game/:id" element={<Game />} />
+      </Routes>
+    </Router>
+  )
 }
 
 export default App

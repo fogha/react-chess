@@ -5,17 +5,12 @@
     overflow: hidden;
 }
 
-.app {
-    min-width: 100vh;
+.app__container {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(34, 34, 34);
-}
-
-.board__container {
-    width: 600px;
-    height: 600px;
 }
 
 .vertical-text {
@@ -26,10 +21,17 @@
     color: white;
 }
 
-.vertical-text button {
+.resetButton {
     margin-top: 20px;
     cursor: pointer;
     background: rgb(63, 63, 63);
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.share-game {
+    position: absolute;
+    width: 350px;
+    bottom: 0;
+    left: 0;
 }
