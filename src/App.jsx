@@ -22,8 +22,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/react-chess" element={<Home />} />
-        <Route path="/react-chess/game/:id" element={<Game />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/game/:id" element={<Game />} />
       </Routes>
     </Router>
   )
