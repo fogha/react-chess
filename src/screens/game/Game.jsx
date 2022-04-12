@@ -76,9 +76,9 @@ function Game() {
                 )
             }
             <div className="board__container">
-                <span className="tag is-link">{game?.oponent?.name}</span>
+                {game && game.oponent && <span className="tag is-link">{game.oponent.name}</span>}
                 <Board board={board} position={position} />
-                <span className="tag is-link">{game?.member?.name}</span>
+                {game && game.member && <span className="tag is-link">{game.member.name}</span>}
             </div>
             {result && <p className="vertical-text">{result}</p>}
 
