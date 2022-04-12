@@ -16,6 +16,8 @@ A 2 player chess game built in react.
 
   <img src="./src/assets/Screen Shot 2022-04-12 at 1.27.33 PM.png" width="500" />
 
+  <img src="./src/assets/Screen Shot 2022-04-12 at 1.55.45 PM.png" width="500" />
+
 </div>
 
 ## Demo
