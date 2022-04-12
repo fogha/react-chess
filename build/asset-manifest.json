@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89e11401.chunk.css",
+    "main.js": "/static/js/main.bf638968.chunk.js",
+    "main.js.map": "/static/js/main.bf638968.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b37db9a5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b37db9a5.js.map",
+    "static/js/2.28f9fbd5.chunk.js": "/static/js/2.28f9fbd5.chunk.js",
+    "static/js/2.28f9fbd5.chunk.js.map": "/static/js/2.28f9fbd5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0be015df3fd49ca896c2da44c08211d8.js": "/precache-manifest.0be015df3fd49ca896c2da44c08211d8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.89e11401.chunk.css.map": "/static/css/main.89e11401.chunk.css.map",
+    "static/js/2.28f9fbd5.chunk.js.LICENSE.txt": "/static/js/2.28f9fbd5.chunk.js.LICENSE.txt",
+    "static/media/Screen Shot 2022-04-12 at 1.27.10 PM.png": "/static/media/Screen Shot 2022-04-12 at 1.27.10 PM.a008b7dd.png",
+    "static/media/Screen Shot 2022-04-12 at 1.27.33 PM.png": "/static/media/Screen Shot 2022-04-12 at 1.27.33 PM.4fcaf27e.png",
+    "static/media/Screen Shot 2022-04-12 at 1.55.45 PM.png": "/static/media/Screen Shot 2022-04-12 at 1.55.45 PM.bbd81d7f.png",
+    "static/media/q_w.png": "/static/media/q_w.3382a953.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b37db9a5.js",
+    "static/js/2.28f9fbd5.chunk.js",
+    "static/css/main.89e11401.chunk.css",
+    "static/js/main.bf638968.chunk.js"
+  ]
+}
