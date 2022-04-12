@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad56f92f6efeeddd68125a56fe7533c5",
+    "revision": "af184b4796e8a16c02e9f403f28a0f04",
     "url": "/react-chess/index.html"
   },
   {
-    "revision": "a3109b8b170613c2b150",
+    "revision": "3ccadd3d0c2a965784c6",
     "url": "/react-chess/static/css/main.89e11401.chunk.css"
   },
   {
-    "revision": "6bf7b46e11374216e899",
-    "url": "/react-chess/static/js/2.c4f5bc72.chunk.js"
+    "revision": "090901e1735be442613e",
+    "url": "/react-chess/static/js/2.96989bcf.chunk.js"
   },
   {
     "revision": "d2b2c77551940926c2a33af1112ee726",
-    "url": "/react-chess/static/js/2.c4f5bc72.chunk.js.LICENSE.txt"
+    "url": "/react-chess/static/js/2.96989bcf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3109b8b170613c2b150",
-    "url": "/react-chess/static/js/main.ef6cf7d1.chunk.js"
+    "revision": "3ccadd3d0c2a965784c6",
+    "url": "/react-chess/static/js/main.018c544c.chunk.js"
   },
   {
     "revision": "7bf79dabeab6448c2b67",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4fcaf27e5fe48103f4703bffdcd4f7ef",
     "url": "/react-chess/static/media/Screen Shot 2022-04-12 at 1.27.33 PM.4fcaf27e.png"
+  },
+  {
+    "revision": "bbd81d7f89570bc26ebe919e83a591b7",
+    "url": "/react-chess/static/media/Screen Shot 2022-04-12 at 1.55.45 PM.bbd81d7f.png"
   },
   {
     "revision": "3382a95341b72c229183dcc0f1168176",
